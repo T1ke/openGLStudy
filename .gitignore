@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+
+#build files
+build-openGLStudy-Desktop_Qt_6_3_0_GCC_64bit-Debug/*
