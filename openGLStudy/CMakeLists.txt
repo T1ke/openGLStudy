@@ -6,5 +6,5 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_executable(openGLStudy main.cpp)
-target_link_libraries(${PROJECT_NAME} GL dl  glfw)
+target_link_libraries(${PROJECT_NAME} GL dl  glfw -lGLEW)
 
